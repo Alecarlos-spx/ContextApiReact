@@ -18,8 +18,6 @@ function Produto({
 
   const produtoNoCarrinho = carrinho.find(itemDoCarrinho => itemDoCarrinho.id === id);
 
-  
-
   return (
       <Container>
         <div>
